@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "service_download"
+version = "0.1.0"
+description = ""
+authors = []
+
+[tool.poetry.dependencies]
+python = "~3.8.10"
+anyio = "^3.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+Faker = "^11.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
